@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* General settings */
+body {
+    margin: 20px;
+    padding: 0px;
+    background-color: #171717;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Page title */
+.page_title_div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* counters */
+.counters {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.counter_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #0b1925;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.counter_title {
+    font-weight: bold;
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+.counter {
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+/* Text */
+.text_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.text_quote {
+    color: rgb(221, 221, 221);
+    font-style: italic;
+}
+.text_bold {
+    font-weight: bold;
+}
+.text_color {
+    color: #b4ea97;
+}
+
+@media (max-width: 720px) {
+    .counters {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+}
